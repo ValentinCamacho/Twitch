@@ -1,0 +1,159 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    transition: .2s ease;
+}
+
+
+/********************* REGISTER ********************************/
+
+.content-register{
+    width: 30vw;
+    height: 50vh;
+    background-color: #181818;
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 20px 40px;
+    border-radius: 4px;
+    display: none;
+    transition: .2s ease;
+}
+
+.x-mark{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.register-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    position: relative;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+
+.input-box input{
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.form-section label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button-submit{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #9c5ff8 !important;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #9c5ff8 !important;
+    background-color: #9c5ff8 !important;
+}
+
+.button-submit:hover{
+    background-color: #8f47fc !important;
+    border: 1px solid #8f47fc !important;
+}
+
+
+
+
+
+
+
+/*********************************** LOGIN **********************************/
+
+
+.content-login{
+    width: 30vw;
+    height: 45vh;
+    background-color: #181818;
+    z-index: 111;
+    padding: 20px 40px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.register-title{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+
+.input-box input{
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+.form-section label{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.no-account{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.no-account p{
+    cursor: pointer;
+    color: #9c5ff8;
+}
+
+.button-submit{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #9c5ff8 !important;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #9c5ff8 !important;
+    background-color: #9c5ff8 !important;
+}
+
+.button-submit:hover{
+    background-color: #8f47fc !important;
+    border: 1px solid #8f47fc !important;
+}

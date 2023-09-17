@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/twitch.png">
+    <title>Twitch</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="bar">
+            <div class="nav">
+                <div class="logo">
+                    <img src="img/twitch.png" alt="Twitch Logo">
+                </div>
+                <div class="item" id="selected">Explorar</div>
+                <div>
+                    <i class="fa-solid fa-ellipsis-vertical" style="color: #d6d6d6; font-size: 20px;" ></i>
+                </div>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar canales...">
+            </div>
+            <div class="user-buttons">
+                <div class="rectangle-button login" id="login-button">Iniciar sesión</div>
+                <div class="rectangle-button register" id="register-button">Registrarse</div>
+                <div id="userName"></div>
+                <div class="profile-button" id="userIcon">
+                  <i class="fa-regular fa-user" ></i> 
+                </div>
+              <div class="option-user" id="options">
+                <div class="content-options">
+                    <i class="fa-solid fa-user" style="color: #c2c2c2;"></i>
+                    <a id="">Canal</a>
+                </div>
+                <div class="content-options">
+                    <i class="fa-solid fa-globe" style="color: #c2c2c2;"></i>
+                    <a id="">Idioma</a>
+                </div>
+                <div class="content-options">
+                    <i class="fa-solid fa-gear" style="color: #c2c2c2;"></i>
+                    <a id="">Configuracion</a>
+                </div>
+                
+                <div class="content-options">
+                    <i class="fa-solid fa-arrow-right-from-bracket" style="color: #c2c2c2;"></i>
+                    <a id="singOut">Cerrar sesión</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="streamer-bar">
+            <div class="streamer-bar-title">
+                <p class="desktop-title">Canales Seguidos</p>
+            </div>
+            <div class="followed-channels">
+                <div class="followed-channel">
+                    <div class="profile-image">
+                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/a_seagull-profile_image-4d2d235688c7dc66-70x70.png" alt="A_Seagull" />
+                    </div>
+                    <div class="profile-info">
+                        <p class="profile-username">Valentin</p>
+                        <p class="profile-game-title">Valorant</p>
+                    </div>
+                    <div class="profile-viewers">
+                        <div class="live-icon"></div>
+                        <div class="viewer-count">1.1K</div>
+                    </div>
+                </div>
+                <div class="followed-channel">
+                    <div class="profile-image">
+                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/f915e077-b9a7-4a85-a5ea-7d51b2f600cb-profile_image-70x70.png" alt="Fitzyhere" />
+                    </div>
+                    <div class="profile-info">
+                        <p class="profile-username">Sebastian</p>
+                        <p class="profile-game-title">FIFA 23</p>
+                    </div>
+                    <div class="profile-viewers">
+                        <div class="live-icon"></div>
+                        <div class="viewer-count">1.5K</div>
+                    </div>
+                </div>
+                <div class="followed-channel">
+                    <div class="profile-image">
+                        <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/525d89ba-6310-4eeb-a522-a34ba67e0c36-profile_image-70x70.png" alt="Fareeha" />
+                    </div>
+                    <div class="profile-info">
+                        <p class="profile-username">Santiago</p>
+                        <p class="profile-game-title">Minecraft</p>
+                    </div>
+                    <div class="profile-viewers">
+                        <div class="live-icon"></div>
+                        <div class="viewer-count">1.6k</div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <small>Mostrar más</small>
+            <br />
+            <div class="recommended-channels">
+                <div class="streamer-bar-title">
+                    <p class="desktop-title">Canales Recomendados</p>
+                </div>
+                <div class="followed-channels">
+                    <div class="followed-channel">
+                        <div class="profile-image">
+                            <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/a5e9679a-6b4d-436c-9e78-d801e42555fc-profile_image-70x70.png" alt="Princess" />
+                        </div>
+                        <div class="profile-info">
+                            <p class="profile-username">Lucas</p>
+                            <p class="profile-game-title">League of Legends</p>
+                        </div>
+                        <div class="profile-viewers">
+                            <div class="live-icon"></div>
+                            <div class="viewer-count">1.1K</div>
+                        </div>
+                    </div>
+                    <div class="followed-channel">
+                        <div class="profile-image">
+                            <img src="https://yt3.ggpht.com/a/AATXAJw5CettE2cTDy_IDP37036lK9ShIfbDOAytUw=s288-c-k-c0xffffffff-no-rj-mo" alt="Sylvi" />
+                        </div>
+                        <div class="profile-info">
+                            <p class="profile-username">Gabriel</p>
+                            <p class="profile-game-title">League of Legends</p>
+                        </div>
+                        <div class="profile-viewers">
+                            <div class="live-icon"></div>
+                            <div class="viewer-count">1.5K</div>
+                        </div>
+                    </div>
+                    <div class="followed-channel">
+                      <div class="profile-image">
+                          <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/3983e5fd-aa7a-4206-8006-6687db26443b-profile_image-70x70.jpeg" alt="Sylvi" />
+                      </div>
+                      <div class="profile-info">
+                          <p class="profile-username">Facundo</p>
+                          <p class="profile-game-title">Dragon Ball Z: Kakarot</p>
+                      </div>
+                      <div class="profile-viewers">
+                          <div class="live-icon"></div>
+                          <div class="viewer-count">1K</div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="stream-content">
+        <h1 class="title">Favoritos</h1>
+        <div class="container_slider">
+  
+          <div class="container-carrusel">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+  
+            <div class="cards">
+              <label class="card" for="item-1" id="selector-1">
+                <img src="img/img1.jpeg">
+              </label>
+              <label class="card" for="item-2" id="selector-2">
+                <img src="img/img2.jpeg">
+              </label>
+              <label class="card" for="item-3" id="selector-3">
+                <img src="img/img3.png">
+              </label>
+            </div>
+          </div>
+  
+        </div>
+        <div class="content-box">
+            <h2>Videos Relacionados</h2>
+               <div class="videos-content content">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/C3sWD1N4HHs" title="JAMES RANDAL IN THE ROMANCE TEST! (PSYCHOLOGIST ARC!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/6zCMduEE6_k" title="UNA DE MIS MEJORES PARTIDAS DEL AÑO 💪" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/KrLj6nc516A" title="Auto de $1 Vs Auto de $100,000,000" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/HUy4yQ7LbsM" title="I Survived as a Solo assassin for 24 hours in Rust.." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/Te3fV89e1DA" title="LA NOCHE DE LOS FAMOSOS 👀🤑 - Barcasino Ep2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/91tfmlPUcQo" title="Fideos con Duko | Especial día de la madre - Cap 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/FuCwaSEXb1s" title="Pxlarized VS Viewer 1v1 Buildfight" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/4gRAwvapYts" title="ICEBERG DE CRISIS EXISTENCIALES 🤨🧊" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+           </div>
+      </div>
+</div>
+
+
+
+
+    <div class="content-register" id="content-register">
+        <div class="register-title">
+            <i class="fa-solid fa-xmark x-mark" id="x-reg" style="color: #c2c2c2;"></i>
+            <img src="./img/twitch.png" alt="" width="60" height="60">
+            <h2>Unete a Twitch</h2>
+        </div>
+        <form class="form-section" id="register" action="">
+            <div class="input-box">
+                <label for="">Nombre de Usuario</label>
+                <input name="username" type="text" id="registerUsername">
+            </div>
+
+            <div class="input-box">
+                <label for="">Email</label>
+                <input name="email" type="email" id="registerEmail">
+            </div>
+            <div class="input-box">
+                <label for="">Contraseña</label>
+                <input name="password" type="password" id="registerPassword">
+            </div>
+            <div class="input-box">
+                <input class="button-submit" type="submit" id="registerButton" value="Registrarse">
+            </div>
+            
+        </form>
+    </div>
+    
+
+    <div class="content-login" id="content-login">
+        
+        <div class="register-title">
+            <i class="fa-solid fa-xmark x-mark" id="x-log" style="color: #c2c2c2;"></i>
+            <img src="./img/twitch.png" alt="" width="60" height="60">
+            <h2>Iniciar Sesion en Twitch</h2>
+        </div>
+        <form class="form-section" id="login" action="">
+            <div class="input-box">
+                <label for="">Email</label>
+                <input type="email" id="loginEmail">
+            </div>
+
+            <div class="input-box">
+                <label for="">Contraseña</label>
+                <input type="password" id="loginPassword">
+            </div>
+
+            <div class="no-account">
+                <span>¿Aun no tienes una cuenta?</span>
+                <p href="" id="link-reg">Registrarse aqui</p>
+            </div>
+
+            <div class="input-box">
+                <input class="button-submit" type="submit" id="loginButton" value="Iniciar sesión">
+            </div>
+            
+            
+            
+        </form>
+    </div>
+    
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
